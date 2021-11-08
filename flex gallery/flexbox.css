@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+  }
+  
+  .gallery-container {
+    background: black;
+    margin: 0 auto;
+    padding: 6rem;
+
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .item {
+    width: 100%;
+    max-width: 200px;
+    transition: all 1s;
+    align-self: auto;
+    display: flex;
+    margin: .5rem;
+    padding: .2rem;
+  }
+  
+  .item:hover {
+    transform: scale(1.2);
+  }
+  
+  .gallery-img {
+    width: 110%;
+    display: block;
+  }
